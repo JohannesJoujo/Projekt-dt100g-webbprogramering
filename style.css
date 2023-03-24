@@ -1,0 +1,165 @@
+#body1, #body3{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    text-align: center;
+    background-color: yellow;
+    font-size: 130%;
+
+}
+#loginform{
+    padding: 2em;
+    border: 3px solid #6d9390;
+    border-radius: 50px 40px;
+    background: linear-gradient(to right, #DDD 0%, #FFF 50%, #DDD 100%);
+}
+#user,#pass,#Pass2{
+    padding-left: 2%;
+    font-size: 90%;
+    border-radius: 3px;
+    border-color: black;
+}
+#Pass,#User, #email,#Pass2{
+    padding-left: 2%;
+    font-size: 80%;
+    border-radius: 3px;
+    border-color: black;
+}
+#go{
+    background-color: #20d520;
+    font-size: 90%;
+    border-radius: 3px;
+    border-color: black;
+    width: 60%;
+    height: 4.5vh;
+}
+#goo{
+    background-color: #20d520;
+    font-size: 90%;
+    border-radius: 3px;
+    border-color: black;
+}
+#go:hover {
+    background-color: lightgreen;
+}
+#goo:hover {
+    background-color: lightgreen;
+}
+#body2 {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    text-align: center;
+    background-color: yellow;
+}
+
+.form {
+    background-color: white;
+    padding: 2%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    border-radius: 5%;
+    margin: 1.5%;
+}
+
+.input {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 300%;
+    text-align: center;
+    padding: 1.5%;
+    border: solid 4px green;
+    color: black;
+}
+
+.input::placeholder {
+    color: #6d9390;
+}
+
+.btn {
+    background-color: blue;
+    color: white;
+    border: none;
+    display: block;
+    width: 100%;
+    padding: 5%;
+    font-size: 150%;
+    margin: 2% 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: green;
+}
+
+.score {
+    color: black;
+    text-align: center;
+    font-size: 150%;
+    margin-top: 0;
+}
+#formid{
+    border-radius: 3px;
+    border-color: black;
+}
+#form2{
+    width: 17%;
+    padding: 2%;
+    border: 3px solid #6d9390;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    background: linear-gradient(to right, #DDD 0%, #FFF 50%, #DDD 100%);
+    border-radius: 5%;
+    margin: 1.5%;
+}
+
+#showSCore{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background-color: yellow;
+    font-size: 160%;
+}
+#return{
+    background-color: blue;
+    color: white;
+    border: none;
+    font-size: 110%;
+    height: 5vh;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+
+}
+#return:hover {
+    background-color: green;
+    height: 6vh;
+}
+#scorebtn{
+    background-color: blueviolet;
+    border-color: blue;
+    color: white;
+    font-size: 110%;
+    height: 5vh;
+}
+#signout{
+    background-color: red;
+    border-color: blueviolet;
+    color: white;
+    font-size: 110%;
+    height: 5vh;
+}
+#signout:hover {
+    height: 6vh;
+}
+#scorebtn:hover {
+    height: 6vh;
+}
+#return{
+margin-right: 5%;
+}
